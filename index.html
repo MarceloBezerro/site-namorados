@@ -24,26 +24,18 @@
         <!-- Seção para a foto da sua namorada -->
         <div class="relative w-48 h-48 sm:w-64 sm:h-64 rounded-full overflow-hidden shadow-xl border-4 border-rose-300">
             <!--
-                PARA ADICIONAR A SUA FOTO:
-                1. Hospede a imagem online (por exemplo, no Imgur, Google Fotos com link direto, etc.).
-                2. Copie o URL DIRETO da imagem (deve terminar em .jpg, .png, etc.).
-                3. Substitua 'https://placehold.co/400x400/808080/FFFFFF?text=Sua+Foto'
-                   pelo URL da sua foto no atributo 'src' abaixo.
-                Exemplo: <img src="https://seusite.com/sua-foto.jpg" ...>
+                ATENÇÃO: Links do Google Fotos (photos.app.goo.gl) geralmente não são links diretos para a imagem.
+                Isso significa que a imagem pode não ser exibida no site.
+                Para que a foto apareça, você precisará de um URL direto para o arquivo da imagem
+                (que termina em .jpg, .png, etc.), hospedado em um serviço como Imgur, ou Google Drive com acesso público e link direto.
             -->
-            <img src="https://placehold.co/400x400/808080/FFFFFF?text=Sua+Foto"
+            <img src="https://photos.app.goo.gl/5fVJjRPaEH91Bfbi9"
                  alt="Foto da minha namorada"
                  class="absolute inset-0 w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                  onerror="this.onerror=null;this.src='https://placehold.co/400x400/DDA0DD/FFFFFF?text=Imagem+indispon%C3%ADvel';">
         </div>
 
-        <!-- Mensagem romântica -->
-        <p class="text-md sm:text-lg text-rose-700 leading-relaxed italic mt-4">
-            Cada dia ao seu lado é um presente. Você ilumina minha vida de uma forma que eu nunca imaginei.
-            Que a contagem do nosso tempo juntos continue crescendo, cheia de amor, risadas e muitas memórias felizes!
-        </p>
-
-        <!-- Seção do temporizador -->
+        <!-- Seção do temporizador movida para debaixo da foto -->
         <div class="mt-6">
             <h2 class="text-xl sm:text-2xl font-semibold mb-3 text-rose-900">Desde o dia em que nos conhecemos:</h2>
             <div id="countdown" class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
@@ -66,6 +58,21 @@
                 </div>
             </div>
         </div>
+
+        <!-- Mensagem romântica original agora depois do temporizador -->
+        <p class="text-md sm:text-lg text-rose-700 leading-relaxed italic mt-4">
+            Desde a primeira vez que te vi no Tinder, eu pensei: 'Hmm, parece o amor da minha vida'. E voilà, o match veio. Claro que eu já cheguei com a minha melhor cantada, na esperança de que você se apaixonasse na hora.
+
+Você me encantou com seu sorriso, seu bom humor, seu carinho, sua inteligência, seu beijo... Eu já devo ter ouvido de umas 200 pessoas o quanto você é 'uma pessoa para casar' — sinceramente, acho que você anda pagando essa gente toda (risos).
+
+Enfim, sem mais enrolação... eu queria chegar no ponto da aliança. Mas aí pensei que talvez ainda fosse um pouco cedo para isso. Acontece que a sábia instrutora contemporânea da academia me deu um conselho. Ela disse: 'Para de ser bobo! Seja intenso. Se é ela, é ela. Eu e o Luís ficamos noivos em um mês e olha só onde estamos hoje: casados há anos, com filhos e uma academia com 2 mil alunos pra revezar os aparelhos'.
+
+Naquele momento, ela mudou a minha perspectiva. Não para te pedir em casamento... ainda (risos).
+
+Mas, Sarah... você quer namorar comigo?
+
+(Agora olhe para mim.)
+        </p>
 
         <!-- Rodapé -->
         <footer class="mt-8 text-sm text-rose-500">
